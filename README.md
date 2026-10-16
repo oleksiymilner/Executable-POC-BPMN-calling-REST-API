@@ -16,7 +16,7 @@ All names and data are illustrative; no real company data is used.
 
 The executable model is a simplified version of the full process: start, two service tasks, end.
 
-![Executable BPMN](screenshots/Fix_Internet_problems_BPMN_diagram.png)
+![Executable BPMN](https://github.com/oleksiymilner/Executable-POC-BPMN-calling-REST-API/blob/main/screenshots/Fix%20Internet%20problems%20BPMN%20diagram.png)
 
 | Task | REST call | Effect in the database |
 |---|---|---|
@@ -27,11 +27,11 @@ The executable model is a simplified version of the full process: start, two ser
 
 **Process instance completed in Camunda Operate.** Both service tasks finished, and the URL variable shows the `PATCH` call to the new activity.
 
-![Operate instance](screenshots/Mock_Service_Operate.png)
+![Operate instance](https://github.com/oleksiymilner/Executable-POC-BPMN-calling-REST-API/blob/main/screenshots/Mock%20Service%20Operate.png)
 
 **Database after the run.** The activity created by the process (row 4) is now assigned to technician 31.
 
-![Activity reassigned in the database](screenshots/Activity_is_reassigned_in_DB.png)
+![Activity reassigned in the database](https://github.com/oleksiymilner/Executable-POC-BPMN-calling-REST-API/blob/main/screenshots/Activity%20is%20reassigned%20in%20DB.png)
 
 ## Run it yourself
 
